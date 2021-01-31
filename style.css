@@ -189,7 +189,7 @@ img {
 }
 .body-container .btn-started:hover {
   transform: translateY(-2px);
-  background: #8ADAE3;
+  background: #8adae3;
   box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
 }
 .body-container .subtitle {
@@ -611,6 +611,10 @@ img {
   .body-container .call-to-action .callToAction-container {
     border-radius: 0.6428571429rem;
   }
+  .body-container .call-to-action .callToAction-container h2 {
+    font-size: 2.2857142857rem;
+    line-height: 3.4285714286rem;
+  }
   .body-container .call-to-action .callToAction-container .callToaction-form {
     grid-template-columns: minmax(auto, 480px) minmax(auto, 200px);
     column-gap: 2.0714285714rem;
@@ -698,6 +702,34 @@ img {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.5px;
+  }
+  .body-container .call-to-action .callToAction-container .description {
+    margin-bottom: 2.2857142857rem;
+    max-width: 45.1428571429rem;
+  }
+  .body-container .call-to-action .callToAction-container .callToaction-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.7142857143rem;
+  }
+  .body-container .call-to-action .callToAction-container .callToaction-form .emailInput {
+    border-radius: 1.7142857143rem;
+    padding: 1rem 2rem;
+  }
+  .body-container .call-to-action .callToAction-container .callToaction-form .emailInput ::placeholder {
+    font-size: 0.7142857143rem;
+    line-height: 1rem;
+    color: #c0c0c0;
+  }
+  .body-container .call-to-action .callToAction-container .callToaction-form .callToAction,
+.body-container .call-to-action .callToAction-container .callToaction-form .emailInput {
+    min-height: 3.4285714286rem;
+    max-width: 34.2857142857rem;
+    width: 100%;
+  }
+  .body-container .call-to-action .callToAction-container .callToaction-form .callToAction {
+    font-size: 1rem;
+    line-height: 1.1428571429rem;
   }
 
   .page-footer {
