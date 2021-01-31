@@ -703,34 +703,6 @@ img {
     line-height: 1.5rem;
     letter-spacing: 0.5px;
   }
-  .body-container .call-to-action .callToAction-container .description {
-    margin-bottom: 2.2857142857rem;
-    max-width: 45.1428571429rem;
-  }
-  .body-container .call-to-action .callToAction-container .callToaction-form {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 1.7142857143rem;
-  }
-  .body-container .call-to-action .callToAction-container .callToaction-form .emailInput {
-    border-radius: 1.7142857143rem;
-    padding: 1rem 2rem;
-  }
-  .body-container .call-to-action .callToAction-container .callToaction-form .emailInput ::placeholder {
-    font-size: 0.7142857143rem;
-    line-height: 1rem;
-    color: #c0c0c0;
-  }
-  .body-container .call-to-action .callToAction-container .callToaction-form .callToAction,
-.body-container .call-to-action .callToAction-container .callToaction-form .emailInput {
-    min-height: 3.4285714286rem;
-    max-width: 34.2857142857rem;
-    width: 100%;
-  }
-  .body-container .call-to-action .callToAction-container .callToaction-form .callToAction {
-    font-size: 1rem;
-    line-height: 1.1428571429rem;
-  }
 
   .page-footer {
     padding: 12.0714285714rem 0 3.7857142857rem 0;
