@@ -440,6 +440,9 @@ img {
   align-items: center;
   justify-content: center;
 }
+.page-footer a:hover {
+  text-decoration: underline;
+}
 .page-footer .footer-container {
   max-width: 1240px;
 }
