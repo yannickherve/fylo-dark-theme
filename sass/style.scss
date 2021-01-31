@@ -98,7 +98,7 @@
     padding-top: rem(48);
     padding-bottom: rem(120);
     // background: url(/images/bg-curvy-mobile.svg),linear-gradient(rgba(28, 36, 49, 1) 55%, rgba(24, 31, 42, 1) 60%);
-    background: url(/images/bg-curvy-mobile.svg),
+    background: url(images/bg-curvy-mobile.svg),
       linear-gradient($darkBlue-introEmailSignupBg 5%, $darkBlue-mainBg 60%);
     background-size: contain;
     background-repeat: no-repeat;
@@ -521,7 +521,7 @@
   }
   .body-container {
     .illustration-intro {
-      background: url(/images/bg-curvy-desktop.svg) $darkBlue-introEmailSignupBg;
+      background: url(images/bg-curvy-desktop.svg) $darkBlue-introEmailSignupBg;
       background-size: contain;
       background-repeat: no-repeat;
       background-position-y: 100%;

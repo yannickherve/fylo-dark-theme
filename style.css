@@ -203,7 +203,7 @@ img {
   background-repeat: no-repeat;
   padding-top: 3.4285714286rem;
   padding-bottom: 8.5714285714rem;
-  background: url(/images/bg-curvy-mobile.svg), linear-gradient(#1c2431 5%, #181f2a 60%);
+  background: url(images/bg-curvy-mobile.svg), linear-gradient(#1c2431 5%, #181f2a 60%);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 48%;
@@ -545,7 +545,7 @@ img {
   }
 
   .body-container .illustration-intro {
-    background: url(/images/bg-curvy-desktop.svg) #1c2431;
+    background: url(images/bg-curvy-desktop.svg) #1c2431;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 100%;
