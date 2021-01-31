@@ -1,0 +1,61 @@
+@import './functions.scss';
+@import './variables.scss';
+
+//font size
+$base-font-size: 14px;
+// Fonts family
+$base-font-family: 'Open Sans', sans-serif;
+$heading-font-family: 'Raleway', sans-serif;
+
+// Font weight
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// line height
+$base-line-height: 30;
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: $base-font-size;
+  height: 100%;
+}
+
+body {
+  font-family: $base-font-family;
+  color: #ffffff;
+  font-weight: $font-weight-regular;
+  margin: 0;
+  background: $darkBlue-introEmailSignupBg;
+}
+
+//  Headings, Call-to-actions, Header Navigation
+h1,
+h2,
+h3 {
+  font-family: $heading-font-family;
+  font-weight: $font-weight-bold;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: background-color .3s, color .3s;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
